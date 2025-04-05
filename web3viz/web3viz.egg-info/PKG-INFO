@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: web3viz
+Version: 0.1.0
+Summary: Библиотека для визуализации данных блокчейна Ethereum
+Home-page: https://github.com/reinexworldc/web3viz
+Author: reinex
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Web3Viz
+
+Библиотека для визуализации данных блокчейна Ethereum.
+
+## Функциональность
+
+- Получение данных о транзакциях для Ethereum-адреса через API Etherscan
+- Построение графиков истории транзакций по времени
+- Визуализация сети взаимодействий с другими адресами
+- Сохранение визуализаций в формате PNG
+
+## Установка
+
+```bash
+pip install web3viz
+```
+
+## Использование
+
+```python
+from web3viz.visualizer import WalletVisualizer
+
+# Инициализация с адресом кошелька
+visualizer = WalletVisualizer("0x...")
+
+# Построение графика истории транзакций
+visualizer.plot_transaction_history()
+
+# Построение графика сети взаимодействий
+visualizer.plot_address_network()
+```
+
+## Требования
+
+- Python 3.7+
+- pandas
+- matplotlib
+- requests
+
+

@@ -1,0 +1,9 @@
+README.md
+setup.py
+web3viz/__init__.py
+web3viz/visualizer.py
+web3viz.egg-info/PKG-INFO
+web3viz.egg-info/SOURCES.txt
+web3viz.egg-info/dependency_links.txt
+web3viz.egg-info/requires.txt
+web3viz.egg-info/top_level.txt
